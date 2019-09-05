@@ -1,0 +1,352 @@
+body{
+    min-width: 320px;
+    font-size: 14px;
+    height: auto;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: red;
+}
+header .navbar-light .navbar-brand{
+    color:white;
+    font-size: 35px;
+}
+header .navbar-light .navbar-brand text{
+    font-size: 14px;
+}
+
+header .nav-item{
+    margin-left: 35px;
+}
+header .navbar-light .navbar-nav .nav-item a:hover{
+    color: #fff;
+}
+header  .nav-item a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    height: 1px;
+    transform:  scale(0);
+    transition: all .3s;
+}
+header .nav-item a:hover::after{
+    transform:  scale(1);
+}
+header .navbar-light .navbar-nav .nav-link{
+    color: #9e9c9f;
+    text-transform: uppercase;
+}
+header .dropdown-menu a:hover{
+    background-color: #4a454b;
+}
+header .clock{
+    margin: 110px 2% 0 2%;
+    height: 200px;
+    border: 2px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #90d23d;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;  
+}
+header .clock .time{
+    font-size: 110px;
+    word-spacing: 18px;
+    margin-top: -25px;
+    font-weight: 100;
+}
+header .clock .word{
+    word-spacing: 120px;
+    margin-top: -30px;
+}
+#icons{
+    height: 250px;
+    margin-top: 135px;
+    position: relative; 
+}
+#icons .img1{ 
+    bottom: 0;
+    position: absolute; 
+    z-index: 5;
+}
+#icons .img2{ 
+    left: 145px;
+    bottom: 30px;
+    position: absolute; 
+    z-index: 4;
+}
+#icons .img3{ 
+    left: 265px;
+    bottom: 50px;
+    position: absolute; 
+    z-index: 3;
+}
+#icons .img4{ 
+    left: 400px;
+    bottom: 50px;
+    position: absolute; 
+    z-index: 2;
+}
+#icons .img5{ 
+    left: 535px;
+    top: 0;
+    position: absolute; 
+    z-index: 1;
+}
+#sing_up{
+    width: 430px;
+    height: 530px;
+    position: absolute;
+    background: white;
+    top: 500px;
+    right: 13%;
+    z-index: 100;
+    border: #949293 solid 1px;
+    text-align: center;
+}
+#sing_up h2{
+    padding-top: 30px;
+}
+#sing_up input{
+    margin-top: 20px;
+    height: 55px;
+}
+#sing_up .btn{
+    margin-top: 40px;
+    background-color: #90d23d;
+    color: white;
+    font-weight: 700;
+}
+#sing_up small{
+    margin: 10px 20% 0 20%;
+}
+#parallelogram1 {
+    height: 1760px;
+    margin-top: -160px;
+    -webkit-clip-path: polygon(0 7%, 100% 0, 100% 93%, 0 100%);
+    clip-path: polygon(0 7%, 100% 0, 100% 93%, 0 100%);
+    background: #fff;  
+    position: relative; 
+    z-index: 6;
+}
+#parallelogram1 .img1{
+    top: 120px;
+    left: 150px;
+    position: absolute; 
+}
+.content1{
+    padding-top: 15%;
+    color: rgb(94, 94, 94);
+    font-size: 12px;
+}
+.content1 h1{
+    color: rgb(36, 36, 36);
+}
+
+.threeimg{
+    padding-top: 140px;
+    text-align: center;
+}
+.three{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+.three h2{
+    color: rgb(36, 36, 36);
+}
+.tab{
+    text-align: center;  
+}
+.tab table{
+    border-radius: 15px;
+    
+}
+.tab thead{
+    color: white;
+    background: #a3cc40;
+    font-size: 20px;
+}
+.tab caption{
+    padding: 30px 10% 0 10%;
+    text-align: center;
+}
+.tab table td{
+    vertical-align: middle;
+    font-size: 16px;
+}
+.orange{
+    margin-top: -190px;
+    position: relative;
+    z-index: 7;
+}
+.content2{
+    padding-top: 5%;
+    color: white;
+    font-size: 12px;
+    text-align: right;
+}
+.content2 .btn{
+    margin-top: 20px;
+    background-color: #90d23d;
+    border-radius: 10px;
+}
+#parallelogram2 {
+    height: 1730px;
+    margin-top: 55px;
+    -webkit-clip-path: polygon(0 7%, 100% 0, 100% 93%, 0 100%);
+    clip-path: polygon(0 7%, 100% 0, 100% 93%, 0 100%);
+    background: #fff;  
+    position: relative; 
+}
+#parallelogram2 .text {
+    padding-top: 15%;
+    padding-left: 2%;
+}
+#parallelogram2 .text p{
+    color: rgb(94, 94, 94);
+}
+#parallelogram2 .quadraterow{
+    margin-top: 40px;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+#parallelogram2 .quadraterow .col{
+    background: #90d23d;
+    height: 300px;
+    border-radius: 15px;
+    margin-right: 90px;
+}
+#parallelogram2 .quadraterow .last{
+    margin-right: 0px;
+}
+#parallelogram2 .quadraterow .img{
+    background-color: transparent;
+    text-align: center;
+    padding-top: 30px;
+}
+#parallelogram2 .quadraterow .text1{
+    text-align: left;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#parallelogram2 .quadraterow .text1 .icons{
+    padding-top: 20%;
+
+}
+.content3{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.content3 p{
+    margin-top: 20px;
+}
+.cnt3img{
+    margin-top: 50px;
+    vertical-align: middle;
+}
+.content3 .btn{
+    margin-top: 20px;
+    background-color: #90d23d;
+    border-radius: 10px;
+    color: white;
+}
+#parallelogram3 {
+    height: 1100px;
+    margin-top: 20px;
+    -webkit-clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 100%);
+    background: #fff;  
+    position: relative; 
+}
+#parallelogram3 .text {
+    padding-top: 15%;
+    padding-left: 2%;
+}
+#parallelogram3 .text p{
+    color: rgb(94, 94, 94);
+}
+#parallelogram3 .img {
+    margin-top: 80px;
+}
+#parallelogram3 .btn {
+    margin-top: 50px;
+    background-color: #373737;
+    border-radius: 10px;
+    color: white;
+}
+#map{
+    background-image: url("../img/map.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+#map .communication{
+    padding-top: 50px;
+}
+#map .communication .wind{
+    height: 400px;
+    background-color: white;
+}
+#map .communication .wind .img{
+    margin-top: 50px;
+}
+#map .communication .wind .text{
+    padding: 10px 20% 0 20%;
+}
+#map .communication .wind .btn {
+    background-color: #90d23d;
+    border-radius: 10px;
+    color: white;
+}
+#map .communication .wind form{
+    margin-top: 50px;
+}
+#map .communication .wind form .btn{
+    margin-top: 10px;
+    background-color: #373737;
+}
+footer{
+    background-color: #90d23d;
+    height: 155px;
+    text-align: center;
+    color: white;
+}
+footer .img{
+    margin-top: 30px;
+}
+footer .text{
+    margin-top: 15px;
+}
+
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
